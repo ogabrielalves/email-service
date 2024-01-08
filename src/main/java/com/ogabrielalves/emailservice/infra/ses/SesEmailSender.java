@@ -33,6 +33,5 @@ public class SesEmailSender implements EmailSenderGateway {
         } catch (AmazonServiceException exception) {
             throw new EmailServiceException("An error occurred while attempting to send the email.", exception);
         }
-
     }
 }

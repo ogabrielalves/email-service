@@ -7,6 +7,8 @@ This project is an email sending RESTful API built using Java, Java Spring and A
 
 This NicroService was developed for studies solving the [Uber Challenge](https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md).
 
+The application follows a clean architecture, with the core responsible for the business rules and use cases. This separation of layers makes the system more modular and adaptable.
+
 ## Requirements 💻
  To run this project you need to have Java 17 installed on your machine.
 
